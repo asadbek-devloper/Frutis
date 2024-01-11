@@ -2,7 +2,11 @@
   padding: 8px 14px;
   font-size: 17px;
   height: 40px;
-  border-radius: 5px;
+  border-radius: 10px;
+  background: #7e80d6;
+  color: #fff342;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
 .form {
@@ -16,6 +20,7 @@
   padding: 8px 14px;
   font-size: 17px;
   border-radius: 5px;
+  /* border: 1px solid black */
 }
 
 .error {

@@ -15,11 +15,11 @@ const Form = (props) => {
     e.preventDefault();
     if (changeInputValue.length < 3 || changePriceInput.length < 4) {
       if (changeInputValue.length < 3) {
-        setError(() => "Nomini to`liq kiriting");
+        setError(() => "Nomini to`liq kiriting!   ");
       }
       if (changePriceInput.length < 4) {
         setError((err) =>
-          err ? err + "Narxni to`liq kiriting" : "Narxni to`liq kiriting"
+          err ? err + "Narxni to`liq kiriting! " : "Narxni to`liq kiriting! "
         );
       }
       return;

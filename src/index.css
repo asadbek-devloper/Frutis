@@ -13,13 +13,3 @@ ul {
 a {
   text-decoration: none;
 }
-
-button,
-button:focus,
-button:active,
-input,
-input:focus,
-input:active {
-  /* outline: none; */
-  /* border: none; */
-}
