@@ -10,6 +10,7 @@
 }
 
 .list li {
+  background-color: rgba(245, 245, 220, 0.463);
   font-size: 18px;
   border: 1px solid black;
   padding: 5px 30px;
@@ -23,6 +24,8 @@
   /* width: 0px; */
   height: 80%;
   padding: 5px;
-  background-color: aqua;
+  background-color: inherit;
+  border: 2px solid rgba(0, 0, 0, 0.536);
+  outline: none;
   border-radius: 5px;
 }

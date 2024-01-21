@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(./assets/img_bag.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 93vh;
+}
+
 ul {
   list-style: none;
 }
